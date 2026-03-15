@@ -56,7 +56,7 @@ public class EditorTexto {
 
                 } else {
 
-                    System.out.println("No hay acciones para deshacer");
+                    System.out.println("No hay acciones disponibles para deshacer");
 
                 }
 
