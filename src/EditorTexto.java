@@ -19,12 +19,13 @@ public class EditorTexto {
         // menú principal del programa
         while (opcion != 5) {
 
-            System.out.println("\n===== EDITOR DE TEXTO =====");
+            System.out.println("===== EDITOR DE TEXTO =====");
             System.out.println("1. Escribir texto");
             System.out.println("2. Deshacer (Undo)");
             System.out.println("3. Rehacer (Redo)");
             System.out.println("4. Mostrar texto actual");
             System.out.println("5. Salir");
+            System.out.println("===========================");
 
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
